@@ -11,7 +11,7 @@
 
 int main() {
     while(true) {
-        printf("%d\n", Time::getTime());
+        printf("%d\n", Time::getTime()); //Time is transfered from the time class as a double and in milliseconds!!!
     }
     return 0;
 }
