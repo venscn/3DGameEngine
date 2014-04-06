@@ -12,4 +12,4 @@
 #include "coreEngine.h"
 #include "game.h"
 
-#endif // 3DENGINE_H_INCLUDED
+#endif // __3DENGINE_H_INCLUDED
