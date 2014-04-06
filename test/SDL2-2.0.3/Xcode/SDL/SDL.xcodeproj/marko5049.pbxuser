@@ -1,0 +1,97 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F1A0977E18F159440080FA6D /* Standard DMG */;
+		activeTarget = BECDF5FE0761BA81005FE872 /* Framework */;
+		codeSenseManager = F1A0979518F1594C0080FA6D /* Code sense */;
+		executables = (
+			F1A0977E18F159440080FA6D /* Standard DMG */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 418470212;
+			PBXWorkspaceStateSaveDate = 418470212;
+		};
+		sourceControlManager = F1A0979418F1594C0080FA6D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BECDF5FE0761BA81005FE872 /* Framework */ = {
+		activeExec = 0;
+	};
+	BECDF66D0761BA81005FE872 /* Static Library */ = {
+		activeExec = 0;
+	};
+	BECDF6BB0761BA81005FE872 /* Standard DMG */ = {
+		activeExec = 0;
+		executables = (
+			F1A0977E18F159440080FA6D /* Standard DMG */,
+		);
+	};
+	DB313F7217554B71006C0E22 /* Shared Library */ = {
+		activeExec = 0;
+	};
+	F1A0977E18F159440080FA6D /* Standard DMG */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Standard DMG";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F1A0979418F1594C0080FA6D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F1A0979518F1594C0080FA6D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
