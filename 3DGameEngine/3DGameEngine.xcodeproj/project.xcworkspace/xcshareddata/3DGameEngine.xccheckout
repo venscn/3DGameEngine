@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>75EC99CC-4569-4133-8314-EAAF68DEDF3D</string>
+	<string>6A19512E-559F-44AA-9050-D9296B3D736B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>3DGameEngine</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/marko5049/3DGameEngineSeries.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test/3DGameEngine.xcodeproj/project.xcworkspace</string>
+	<string>3DGameEngine/3DGameEngine.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>962436BE-2B20-468D-BAEB-7AAF45F9B015</key>
