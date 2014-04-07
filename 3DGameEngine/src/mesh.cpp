@@ -54,7 +54,7 @@ Mesh::Mesh(const std::string& fileName)
 		for(unsigned int i = 0; i < model.positions.size(); i++)
 			vertices.push_back(Vertex(model.positions[i], model.texCoords[i], model.normals[i]));
 			
-		InitMesh(&vertices[0], vertices.size(), (int*)&model.indices[0], model.indices.size(), false);
+		InitMesh(&vertices[0], ((GLint)vertices.size()), (int*)&model.indices[0], ((GLint)model.indices.size()), false);
 		
 		s_resourceMap.insert(std::pair<std::string, MeshData*>(fileName, m_meshData));
 	}

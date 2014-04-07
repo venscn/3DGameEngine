@@ -63,7 +63,7 @@ void TestGame::Init()
 int main()
 {
 	TestGame game;
-	CoreEngine engine(800, 600, 60, &game);
+	CoreEngine engine(1900, 1060, 60, &game);
 	engine.CreateWindow("3D Game Engine");
 	engine.Start();
 	
