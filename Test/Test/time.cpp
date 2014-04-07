@@ -26,7 +26,8 @@
 #endif
 
 #ifdef OS_MACOSX
-    #include "sys/time.h"
+    #include <mach/mach.h>
+    #include <mach/mach_time.h>
 #endif
 
 #ifdef OS_OTHER
@@ -59,9 +60,10 @@ double Time::GetTime()
 	#endif
     
     #ifdef OS_MACOSX
-    timeval currentTime;
-    gettimeofday(&currentTime, NULL);
-    return ((double)(currentTime.tv_sec * 1000.0) + (double)(currentTime.tv_usec / 1000.0))/60.0;
+        static mach_timebase_info_data_t timeBase;
+        uint64_t time = mach_absolute_time();
+        (void) mach_timebase_info(&timeBase);
+        return ((double)((time * timeBase.numer) / timeBase.denom))/1000000000.0;
     #endif
 
 	#ifdef OS_LINUX
