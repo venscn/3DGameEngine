@@ -10,12 +10,12 @@
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F175B3D318F3BC5E00CE052D /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F175B3D218F3BC5E00CE052D /* libSDL2.a */; };
 		FD15FD690E086911003BDF25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		FD15FD6A0E086911003BDF25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		FD15FD6B0E086911003BDF25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		FD15FD6C0E086911003BDF25 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB96ED30DEFC9C700FAF19F /* OpenGLES.framework */; };
 		FD15FD6D0E086911003BDF25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB96EDF0DEFC9DC00FAF19F /* QuartzCore.framework */; };
-		FD1B48DD0E313255007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
 		FD1B49980E313261007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
 		FD1B499C0E313269007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
 		FD1B499E0E31326C007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
@@ -169,6 +169,7 @@
 		1D6058910D05DD3D006BFB54 /* Rectangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rectangles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175B3D218F3BC5E00CE052D /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../SDL/libSDL2.a; sourceTree = "<group>"; };
 		FD15FCB20E086866003BDF25 /* Happy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1B48920E313154007AB34E /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = ../SDL/SDL.xcodeproj; sourceTree = SOURCE_ROOT; };
 		FD5F9BE40E0DEBEA008E885B /* Accel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,7 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1B48DD0E313255007AB34E /* libSDL2.a in Frameworks */,
+				F175B3D318F3BC5E00CE052D /* libSDL2.a in Frameworks */,
 				FDF0D7AB0E12D53800247964 /* CoreAudio.framework in Frameworks */,
 				FDF0D7AC0E12D53800247964 /* AudioToolbox.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -352,6 +353,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F175B3D218F3BC5E00CE052D /* libSDL2.a */,
 				FDF0D7220E12D31800247964 /* AudioToolbox.framework */,
 				FDB96EDF0DEFC9DC00FAF19F /* QuartzCore.framework */,
 				FDB96ED30DEFC9C700FAF19F /* OpenGLES.framework */,
@@ -784,6 +786,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/marko5049/Desktop/applications/3DGameEngineSeries/3DGameEngine/SDL2-2.0.3/Xcode-iOS/SDL",
+				);
 				PRODUCT_NAME = Rectangles;
 			};
 			name = Debug;
@@ -792,6 +798,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/marko5049/Desktop/applications/3DGameEngineSeries/3DGameEngine/SDL2-2.0.3/Xcode-iOS/SDL",
+				);
 				PRODUCT_NAME = Rectangles;
 			};
 			name = Release;

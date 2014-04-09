@@ -23,14 +23,20 @@ void Window::Create(int width, int height, const std::string& title)
 	Window::s_title = title;
 
 	SDL_Init(SDL_INIT_EVERYTHING);
-
+    
 	SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_GREEN_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_BLUE_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_ALPHA_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_BUFFER_SIZE,32);
+    
+    #ifdef OS_MACOSX
+    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE,24);
+    #else
 	SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE,16);
-	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);
+    #endif
+    
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);
 
 	SDLCreateWindow(title.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, false);
 

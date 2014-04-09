@@ -65,6 +65,7 @@
 		AAE7DFAC14CBB54E00DF1A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89D0E2D111A00EA573E /* Foundation.framework */; };
 		AAE7DFAD14CBB54E00DF1A0E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89E0E2D111A00EA573E /* CoreAudio.framework */; };
 		AAE7DFB514CBB5F700DF1A0E /* testrendertarget.c in Sources */ = {isa = PBXBuildFile; fileRef = AAE7DFB414CBB5F700DF1A0E /* testrendertarget.c */; };
+		F175B3DE18F3E8E500CE052D /* testfile.c in Sources */ = {isa = PBXBuildFile; fileRef = FDA8A7480E2D0F1600EA573E /* testfile.c */; };
 		FDA8A79C0E2D0F9300EA573E /* testwm2.c in Sources */ = {isa = PBXBuildFile; fileRef = FDA8A75F0E2D0F1600EA573E /* testwm2.c */; };
 		FDA8A89F0E2D111A00EA573E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8980E2D111A00EA573E /* AudioToolbox.framework */; };
 		FDA8A8A00E2D111A00EA573E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8990E2D111A00EA573E /* QuartzCore.framework */; };
@@ -105,7 +106,6 @@
 		FDAAC5C30E2D55B5001DB1D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89C0E2D111A00EA573E /* UIKit.framework */; };
 		FDAAC5C40E2D55B5001DB1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89D0E2D111A00EA573E /* Foundation.framework */; };
 		FDAAC5C50E2D55B5001DB1D8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89E0E2D111A00EA573E /* CoreAudio.framework */; };
-		FDAAC5CC0E2D55CA001DB1D8 /* testfile.c in Sources */ = {isa = PBXBuildFile; fileRef = FDA8A7480E2D0F1600EA573E /* testfile.c */; };
 		FDAAC61C0E2D5914001DB1D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8980E2D111A00EA573E /* AudioToolbox.framework */; };
 		FDAAC61D0E2D5914001DB1D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A8990E2D111A00EA573E /* QuartzCore.framework */; };
 		FDAAC61E0E2D5914001DB1D8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA8A89A0E2D111A00EA573E /* OpenGLES.framework */; };
@@ -236,13 +236,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0466EE6F11E565E4000198A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD1B48AC0E3131CA007AB34E /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 006E982211955059001DE610;
-			remoteInfo = testsdl;
-		};
 		AA1EE451176059230029C7A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA1EE44D176059220029C7A5 /* SDL2test.xcodeproj */;
@@ -735,7 +728,6 @@
 			isa = PBXGroup;
 			children = (
 				FD1B48B80E3131CA007AB34E /* libSDL2.a */,
-				0466EE7011E565E4000198A4 /* testsdl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1252,13 +1244,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0466EE7011E565E4000198A4 /* testsdl.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = testsdl.app;
-			remoteRef = 0466EE6F11E565E4000198A4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		AA1EE452176059230029C7A5 /* libSDL2test.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1528,7 +1513,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDAAC5CC0E2D55CA001DB1D8 /* testfile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1545,6 +1529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC4300A0F0D86BF009C87E1 /* testdraw2.c in Sources */,
+				F175B3DE18F3E8E500CE052D /* testfile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

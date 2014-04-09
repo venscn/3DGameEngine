@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50BFF287-ABB4-4330-B887-E928591414BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SDL2test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>962436BE-2B20-468D-BAEB-7AAF45F9B015</key>
+		<string>https://github.com/marko5049/3DGameEngineSeries.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>3DGameEngine/SDL2-2.0.3/Xcode-iOS/SDLtest/SDL2test.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>962436BE-2B20-468D-BAEB-7AAF45F9B015</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marko5049/3DGameEngineSeries.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>962436BE-2B20-468D-BAEB-7AAF45F9B015</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>962436BE-2B20-468D-BAEB-7AAF45F9B015</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3DGameEngineSeries</string>
+		</dict>
+	</array>
+</dict>
+</plist>
