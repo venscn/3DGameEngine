@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F196DBAB18F2C7590060479E"
-               BuildableName = "3DGameEngineIOS.app"
-               BlueprintName = "3DGameEngineIOS"
+               BlueprintIdentifier = "F1027C7018F5504B00728A37"
+               BuildableName = "3DgameEngineIOS.app"
+               BlueprintName = "3DgameEngineIOS"
                ReferencedContainer = "container:3DGameEngine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F196DBD618F2C75A0060479E"
-               BuildableName = "3DGameEngineIOSTests.xctest"
-               BlueprintName = "3DGameEngineIOSTests"
+               BlueprintIdentifier = "F1027C8618F5504B00728A37"
+               BuildableName = "3DgameEngineIOSTests.xctest"
+               BlueprintName = "3DgameEngineIOSTests"
                ReferencedContainer = "container:3DGameEngine.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F196DBAB18F2C7590060479E"
-            BuildableName = "3DGameEngineIOS.app"
-            BlueprintName = "3DGameEngineIOS"
+            BlueprintIdentifier = "F1027C7018F5504B00728A37"
+            BuildableName = "3DgameEngineIOS.app"
+            BlueprintName = "3DgameEngineIOS"
             ReferencedContainer = "container:3DGameEngine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +61,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F196DBAB18F2C7590060479E"
-            BuildableName = "3DGameEngineIOS.app"
-            BlueprintName = "3DGameEngineIOS"
+            BlueprintIdentifier = "F1027C7018F5504B00728A37"
+            BuildableName = "3DgameEngineIOS.app"
+            BlueprintName = "3DgameEngineIOS"
             ReferencedContainer = "container:3DGameEngine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +79,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F196DBAB18F2C7590060479E"
-            BuildableName = "3DGameEngineIOS.app"
-            BlueprintName = "3DGameEngineIOS"
+            BlueprintIdentifier = "F1027C7018F5504B00728A37"
+            BuildableName = "3DgameEngineIOS.app"
+            BlueprintName = "3DgameEngineIOS"
             ReferencedContainer = "container:3DGameEngine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

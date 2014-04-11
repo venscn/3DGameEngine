@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>3DgameEngineIOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F1027C1818F53C2300728A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1027C4318F53C2300728A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1027C7018F5504B00728A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1027C8618F5504B00728A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F13D7A7218E95F780034C54C</key>
 		<dict>
 			<key>primary</key>
